@@ -1148,7 +1148,9 @@ padding: 10px 20px;
 }
 
 #es-garnier.es-garnier .es-footer__logo {
-  margin-bottom: 16px;
+  display: block;
+  width: 20%;
+  margin: 15px auto;
 }
 
 #es-garnier.es-garnier .es-footer__wrapper {
