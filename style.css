@@ -124,14 +124,6 @@ body {
  top: 20px;
 }
 
-@media screen and (min-width: 425px) {
-  #es-garnier.es-garnier .es-kv__title {
-    font-size: 32px;
-  }
-  #es-garnier.es-garnier .es-kv__subtitle {
-    font-size: 25px;
-  }
-}
 @media screen and (min-width: 768px) {
   #es-garnier.es-garnier .es-kv {
     margin-bottom: 32px;
@@ -293,7 +285,7 @@ width: 40ch;
   }
   
   #es-garnier.es-garnier #es-intro__left {
-  min-width: 120%;
+  min-width: 110%;
   position: relative;
   /* left: 2%; */
   bottom: 30px;
@@ -452,7 +444,7 @@ width: 40ch;
   }
   #es-garnier.es-garnier .es-benefits__texts {
     position: absolute;
-    max-width: 300px;
+    max-width: 260px;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
@@ -461,7 +453,7 @@ width: 40ch;
     content: url("img/border-line-1.png");
     position: absolute;
     top: 45px;
-    left: 298px;
+    left: 258px;
   }
 
   #es-garnier.es-garnier .es-benefits__texts--2 {
@@ -1177,11 +1169,7 @@ padding: 10px 20px;
           justify-content: space-evenly;
 }
 
-
-
 @media screen and (min-width: 768px) {
-
-
   #es-garnier.es-garnier .es-apply {
     max-width: 900px;
     margin: 0 auto;
@@ -1219,7 +1207,7 @@ padding: 10px 20px;
             align-items: center;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: center;
   }
   #es-garnier.es-garnier .es-info__container--second {
     -webkit-box-orient: horizontal;
